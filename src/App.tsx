@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Login from "./components/Login";
+import MapModal from "./components/MapModal";
 // import Sidebar from "./components/Sidebar";
 
 const AppWrapper = styled.div`
@@ -13,7 +14,8 @@ function App() {
   return (
     <>
       <AppWrapper>
-        <Login/>
+        {/* <MapModal /> */}
+        <Login />
       </AppWrapper>
     </>
   );
